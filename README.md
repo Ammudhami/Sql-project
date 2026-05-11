@@ -86,35 +86,6 @@ Customers ──< Orders ──< OrderItems >── Products
 - `AVG() OVER (ROWS BETWEEN 2 PRECEDING AND CURRENT ROW)` — 3-month rolling average
 - `PARTITION BY` — rankings within category/segment
 
----
-
-## ⚙️ How to Run
-
-### Prerequisites
-- Microsoft SQL Server (2016 or later)
-- SQL Server Management Studio (SSMS) — free download from Microsoft
-
-### Steps
-
-1. **Open SSMS** and connect to your SQL Server instance
-
-2. **Run Schema & Data** — open and execute `01_schema_and_data.sql`
-   ```sql
-   -- This creates the EcommerceAnalytics database, all tables, and inserts sample data
-   ```
-
-3. **Run Analysis Queries** — open and execute `02_analysis_queries.sql`
-   ```sql
-   USE EcommerceAnalytics;
-   -- Run each analysis block independently or all at once
-   ```
-
-4. **Run Advanced SQL** — open and execute `03_advanced_sql.sql`
-   ```sql
-   -- Creates views and stored procedures; then calls them with sample parameters
-   ```
-
----
 
 ## 💡 Key SQL Skills Demonstrated
 
