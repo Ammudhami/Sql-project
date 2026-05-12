@@ -9,7 +9,7 @@ Advanced SQL concepts like Window Functions, Views, and Stored Procedures
 ---
 Project Structure
 ```bash
-ecommerce_sql_project/
+ecommerce_sql_project
 │
 ├── 01_schema_and_data.sql
 ├── 02_analysis_queries.sql
