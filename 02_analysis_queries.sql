@@ -1,7 +1,6 @@
 -- ============================================================
 -- E-COMMERCE SALES ANALYTICS PROJECT
 -- File: 02_analysis_queries.sql
--- Description: 10 real-world business analysis queries
 -- Database: MS SQL Server
 -- ============================================================
 
